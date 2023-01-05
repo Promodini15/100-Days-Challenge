@@ -12,7 +12,7 @@ public class Palindrome {
     flag= flag*10 + digit;
     temp=temp/10;
 }   
-    if(temp==num){
+    if(flag==num){
      System.out.println("Palindrome");
 }
     else{
