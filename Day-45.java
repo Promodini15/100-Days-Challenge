@@ -19,7 +19,7 @@ public class LargeAndSmall {
     System.out.println("enter size of  array");
         int n=sc.nextInt();
         int[] arr=new int[n];
-        System.out.println("enter the elemnts");
+        System.out.println("enter the elements");
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
