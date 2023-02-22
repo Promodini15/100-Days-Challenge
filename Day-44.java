@@ -7,7 +7,7 @@ public class EvenAndOdd {
     System.out.println("enter size of  array");
         int n=sc.nextInt();
         int[] arr=new int[n];
-        System.out.println("enter array elemnts");
+        System.out.println("enter array elements");
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
@@ -20,7 +20,7 @@ public class EvenAndOdd {
                 odd++;
             }
         }
-        System.out.println("Number of even elemnts: "+even);
+        System.out.println("Number of even elements: "+even);
         System.out.println("Number of odd elements: "+odd);
 }
 }
